@@ -1,0 +1,70 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    background: linear-gradient(-45deg, #6667ab, #4a228a, #210635, #271D35);
+    background-size: 200% 200%;
+    animation: gradient 5s ease infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    color: #f7e8ed;
+    overflow: hidden;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    height: 100vh;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 25% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 25% 50%;
+    }
+}
+
+form {
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 30px 30px 15px #220636;
+    width: 500px;
+}
+button{
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    font-size: 25px;
+    
+    width: 100%;
+    height: 50px;
+    background-color: #7F43E3;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #220636;
+    color: #9871b4;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px ;
+    text-align: center;
+    
+}
